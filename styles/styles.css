@@ -1,0 +1,243 @@
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1160px;
+    margin: 20px auto;
+    
+}
+.nav-link {
+    display: flex;
+    list-style: none;
+    
+}
+.home {
+    margin-right: 32px;
+    
+}
+.about {
+    margin-right: 32px;
+}
+.facilities {
+    margin-right: 32px;
+}
+.nav-home {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: orange;
+}
+.nav-about {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: skyblue;
+}
+.nav-facilities {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #05D4DF;
+}
+.nav-admission {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #5D58EF;
+}
+.logo {
+    display: flex;
+}
+.contact {
+        height: 50px;
+        width: 197px;
+        border-radius: 12px;
+        background-color: orange;
+        border: none;
+        color: #FFFFFF;
+        padding: 10px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+.body-pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1160px;
+    margin: 20px auto;
+}
+.students {
+    font-weight: bold;
+    font-size: 56px;;
+}
+.age {
+    font-weight: bold;
+    font-size: 56px;
+}
+.banner-emp{
+    font-weight: bold;
+    font-size: 56px;
+}
+.empowering {
+    color: orange;
+}
+.towards {
+    color: skyblue;
+}
+.with {
+    font-size: 20px;
+}
+.button-2 {
+    height: 50px;
+    width: 197px;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+}
+.standard {
+    font-weight: bold;
+    font-size: 46;
+    max-width: 1160px;
+    margin: 60px auto;
+    text-align: center;
+}
+.back {
+    background-image: url(../Images/bg.png);
+    width: 100%;
+    background-image: linear-gradient(to bottom, #f5e5c8);
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1160px;
+}
+.main-1 {
+    text-align: center;
+    border-radius: 18.86px;
+    padding: 50px;
+    background: linear-gradient(#DEF5FF, white);
+    margin-right: 50px;
+    }
+.main-2 {
+        text-align: center;
+        border-radius: 18.86px;
+        padding: 50px;
+        background: linear-gradient(#FFF4DC, white);
+        margin-right: 50px;
+    }
+.main-3 {
+        text-align: center;
+        border-radius: 18.86px;
+        padding: 50px;
+        background: linear-gradient(#F2E8FF, white);
+    }
+.btn-1 {
+    color: #64C8FF;
+    font-weight: bold;
+    font-size: 15.09px;
+    margin: 50px;
+}
+.btn-2 {
+    color: #F0AA00;
+    font-weight: bold;
+    font-size: 15.09px;
+    margin: 50px;
+}
+.btn-3 {
+    color: #8700FF;
+    font-weight: bold;
+    font-size: 15.09px;
+    margin: 50px;
+}
+.sign {
+    display: flex;
+    justify-content: center;
+}
+.lt {
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    
+}
+.story {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    background-color: white;
+}
+.story-1 {
+    max-width: 540.27px;
+    img {
+        border-radius: 16px;
+    }
+}
+.inline {
+    background-color: #3CD8E8;
+    border-radius: 47.93px;
+    width: 174.51px;
+    height: 47.93px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.story-2 {
+    border-radius: 16px;
+    max-width: 290.69px;
+    img {
+        border-radius: 16px;
+    }
+}
+.story-3 {
+    border-radius: 16px;
+    max-width: 290.69px;
+    img {
+        border-radius: 16px;
+    }
+}
+.story-4 {
+    border-radius: 16px;
+    max-width: 290.69px;
+    img {
+        border-radius: 16px;
+    }
+}
+.story-5 {
+    border-radius: 16px;
+    max-width: 290.69px;
+    img {
+        border-radius: 16px;
+    }
+}
+.view-all {
+    margin: 60px auto;
+    text-align: center;
+}
+.button-3 {
+    height: 50px;
+    width: 197px;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+}
+.foot {
+    max-width: 100%;
+    padding: 160px  280px;
+    background-color: #01ACFD;
+    color: white;
+
+}
