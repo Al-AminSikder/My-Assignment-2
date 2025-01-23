@@ -12,10 +12,22 @@
     margin: 20px auto;
     
 }
+.hamburg {
+    @media only screen and (min-width: 577px) {
+        display: none;
+      }
+}
 .nav-link {
     display: flex;
     list-style: none;
-    
+    @media only screen and (max-width: 576px) {
+        display: none;
+      }
+.school {
+    @media only screen and (max-width: 576px) {
+        display: none;
+      }
+}
 }
 .home {
     margin-right: 32px;
@@ -64,6 +76,9 @@
         padding: 10px;
         font-weight: 600;
         font-size: 20px;
+        @media only screen and (max-width: 576px) {
+            display: none;
+          }
     }
 .body-pic {
     display: flex;
@@ -71,6 +86,10 @@
     align-items: center;
     max-width: 1160px;
     margin: 20px auto;
+    @media only screen and (max-width: 576px) {
+        flex-direction: column-reverse;
+        align-content: center;
+      }
 }
 .students {
     font-weight: bold;
@@ -159,6 +178,24 @@
 .sign {
     display: flex;
     justify-content: center;
+}
+.less-than {
+    background-color: orange;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    color: white;
+    margin-right: 10px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    position: relative;
+}
+.grater-than {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    position: relative;
 }
 .lt {
     background-color: orange;
