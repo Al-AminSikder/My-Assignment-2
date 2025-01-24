@@ -10,6 +10,9 @@
     align-items: center;
     max-width: 1160px;
     margin: 20px auto;
+    @media only screen and (max-width: 576px) {
+        border-bottom: orange;;
+      }
     
 }
 .hamburg {
@@ -283,7 +286,7 @@
 }
 .foot {
     max-width: 100%;
-    padding: 160px  280px;
+    padding: 80px  150px;
     background-color: #01ACFD;
     color: white;
     display: flex;
