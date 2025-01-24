@@ -136,6 +136,9 @@
     justify-content: space-around;
     margin: 0 auto;
     max-width: 1160px;
+    @media only screen and (max-width: 576px) {
+    flex-direction: column;
+      }
 }
 .main-1 {
     text-align: center;
@@ -178,6 +181,9 @@
 .sign {
     display: flex;
     justify-content: center;
+    @media only screen and (max-width: 576px) {
+        display: none;
+      }
 }
 .less-than {
     background-color: orange;
@@ -214,6 +220,9 @@
     img {
         border-radius: 16px;
     }
+    @media only screen and (max-width: 576px) {
+        display: none;
+      }
 }
 .inline {
     background-color: #3CD8E8;
@@ -225,6 +234,7 @@
     align-content: center;
     margin-top: -20px;
     margin-left: 50px;
+    border: none;
 }
 
 .grid-1 {
@@ -276,5 +286,21 @@
     padding: 160px  280px;
     background-color: #01ACFD;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    @media only screen and (max-width: 576px) {
+        flex-direction: column;;
+      } 
+    }
 
+.edu {
+    display: flex;
+}
+.last-pragraph {
+    max-width: 400px;
+    
+}
+.last-icon {
+    width: 40px;
+    height: 40px;
 }
